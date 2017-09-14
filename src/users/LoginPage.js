@@ -70,7 +70,7 @@ class LoginPage extends Component {
 
     handleLogin(e) {
         e.preventDefault();
-        location.href = 'home';
+        //location.href = 'home';
     }
 }
 
