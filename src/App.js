@@ -10,9 +10,6 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to Tencent CHIT</h2>
         </div>
-        <p className="App-intro">
-          To get started, please login.
-        </p>
       </div>
     );
   }

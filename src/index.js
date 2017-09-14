@@ -2,8 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Timer from './users/Timer'
+import LoginPage from './users/LoginPage'
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<div> <App /> <Timer /> </div>, document.getElementById('root'));
+ReactDOM.render(
+    <div>
+        <App />
+        <LoginPage />
+    </div>,
+    document.getElementById('root'));
+
 registerServiceWorker();
