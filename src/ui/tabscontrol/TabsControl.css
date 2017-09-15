@@ -1,0 +1,36 @@
+.tab_container{
+    width: 300px;
+    height: 340px;
+}
+.tab_title_wrap{
+    width: 300px;
+    height: 40px;
+}
+.tab_title{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #FFF;
+    background-color: #c2c9c8;
+    display: inline-block;
+}
+.tab_active{
+    color: #FFF;
+    background-color: #FF260E;
+}
+.tab_item_wrap{
+    width: 300px;
+    height: 300px;
+}
+.tab_item{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+    display: none;
+}
+
+.tab_show{
+    display: block;
+}

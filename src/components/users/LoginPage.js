@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import TabsControl from '../../ui/tabscontrol/TabsControl';
 
 class LoginPage extends Component {
     constructor(props) {
@@ -52,6 +53,17 @@ class LoginPage extends Component {
                                 <div className="form-group">
                                     <button className="btn btn-info col-sm-2 col-sm-offset-10" id="register0">注册</button>
                                 </div>
+                                <TabsControl>
+                                    <div name = "first">
+                                        第一帧
+                                    </div>
+                                    <div name = "second">
+                                        <input></input>
+                                    </div>
+                                    <div name = "third">
+                                        第三帧
+                                    </div>
+                                </TabsControl>
                             </div>
                         </div>
                     </fieldset>
