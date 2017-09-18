@@ -10,7 +10,7 @@ class ViewStack extends React.Component{
     }
 
     check_item_index(index){
-        return index === this.state.currentIndex ? "view_item view_show" : "view_item";
+        return index === this.state.currentIndex ? "view_show" : "view_hide";
     }
 
     set_current_index(index){
@@ -20,7 +20,7 @@ class ViewStack extends React.Component{
     render(){
         return(
             <div>
-                <div className="view_item_wrap">
+                <div>
                     {
                         React.Children.map(this.props.children,( element,index )=>{
                             return(
