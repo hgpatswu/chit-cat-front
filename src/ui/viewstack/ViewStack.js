@@ -20,15 +20,13 @@ class ViewStack extends React.Component{
     render(){
         return(
             <div>
-                <div>
-                    {
-                        React.Children.map(this.props.children,( element,index )=>{
-                            return(
-                                <div className={ this.check_item_index( index ) }>{ element }</div>
-                            )
-                        })
-                    }
-                </div>
+                {
+                    React.Children.map(this.props.children,( element,index )=>{
+                        return(
+                            <div className={ this.check_item_index( index ) }>{ element }</div>
+                        )
+                    })
+                }
             </div>
         )
     }
