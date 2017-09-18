@@ -20,11 +20,11 @@
     background-color: #FF260E;
 }
 .tab_item_wrap{
-    width: 300px;
-    height: 300px;
+    /**width: 300px;
+    height: 300px; **/
 }
 .tab_item{
-    width: 300px;
+    /**width: 300px;**/
     height: 300px;
     text-align: center;
     line-height: 300px;
